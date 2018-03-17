@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.psvueplay" name="PS Vue EPG Play" version="2018.3.17" provider-name="eracknaphobia">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.requests" version="2.9.1"/>
+    <import addon="plugin.video.psvue" version="2018.2.15"/>
+    <import addon="service.psvue.epg" version="2018.3.17"/>
+  </requires>
+    <extension point="xbmc.python.script" library="script.py" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en_GB">PS Vue EPG Play</summary>
+  </extension>
+</addon>
